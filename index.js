@@ -8,14 +8,14 @@ function myfunction(){
     var randomNumber1 = Math.random();
     randomNumber1=Math.floor(randomNumber1*6)+1;
     var randomSrc1 = "./images/dice"+randomNumber1+".png";
-    document.querySelector(".img1").setAttributes("src" , randomSrc1);
+    document.querySelector(".img1").setAttribute("src" , randomSrc1);
 
 // Player 2 dicee
 
     var randomNumber2 = Math.random();
     randomNumber2=Math.floor(randomNumber2*6)+1;
     var randomSrc2 = "./images/dice"+randomNumber2+".png";
-    document.querySelector(".img2").setAttributes("src" , randomSrc2);
+    document.querySelector(".img2").setAttribute("src" , randomSrc2);
 
 // Winner
 
